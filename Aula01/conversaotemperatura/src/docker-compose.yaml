@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  conversao-temp:
+    image: viniciuscaol/conversao-temp:v1
+    container_name: conversao-temp
+    ports:
+      - 8080:8080
